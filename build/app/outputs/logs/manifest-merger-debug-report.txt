@@ -1,0 +1,272 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:1:1-45:12
+INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:1:1-45:12
+MERGED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:1:1-45:12
+MERGED from [:audioplayers] /Users/maverick/Documents/AI-Music-App/build/audioplayers/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:alan_voice] /Users/maverick/Documents/AI-Music-App/build/alan_voice/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-8:12
+MERGED from [:path_provider] /Users/maverick/Documents/AI-Music-App/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:package_info] /Users/maverick/Documents/AI-Music-App/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-ktx:1.6.0-rc01] /Users/maverick/.gradle/caches/transforms-2/files-2.1/68a6cb6ec79e0fadd99463097001ed27/core-ktx-1.6.0-rc01/AndroidManifest.xml:2:1-9:12
+MERGED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:2:1-28:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/c3b1bffdf83d6cacfb00f0f9ca89a3e0/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/1f737b1368f7d2bb9c0086857629b41f/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/42735e7a3f4c6d9f5fd2d0db7d114b58/glide-4.10.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/293b9abd2eb272e873253661c58c369c/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/baf90056ab22f753b011489a562adf8b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/52664f4c2212366316d5d27f589c3c02/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/7bfa6bdec5885c603ac2e340f3a7ec7b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/660ae9fa685b0dae833d8182baaa48cd/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/024538878c14b4d616afd8c132a13204/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/d2113b3317658f193ac6eaa9ad7a696e/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/07858528977996d7c8f653fc9c11e787/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/cfb22f23bf3a82fa743a33f859491ebe/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/2003b0cf3cdd3a537abc963769e10251/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/23cba14a0a38bfe09e1915e580fdf5cb/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/11e836cd2b15efc3fe55439d43852921/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/d2125681bfce58306ad0989f9776cd1c/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/e9cb53afee3cc87868c55a9e2e4059e8/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/91d75d962b3678d58790d6c00c3fcaa3/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/9f9df9b406b6b967f669afb9dc66fd7c/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0-rc01] /Users/maverick/.gradle/caches/transforms-2/files-2.1/d1bc3958f0895d8ca381324781a14100/core-1.6.0-rc01/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/97be06ce758a55ea72d0d7c8496a0c99/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/c9b1f6620f43493d524f9ac61798ff9c/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/da5440f1ffe2a8c2ec03402c4ad96148/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/1f903bbbe69145ba3246c19d13766e1e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.budiyev.android:code-scanner:2.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/30456ab6f9e23c8939b4f515597d665a/code-scanner-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/8ccaf7fe4ad6b000436b8155986bd04b/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/maverick/.gradle/caches/transforms-2/files-2.1/491237865ad9caf848c477252190d771/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/3da558147364936a75e72dacdeb6652a/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/136ecb6d9c69b57d8b5e5771d6efbd94/gifdecoder-4.10.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/47b7d07dae849aeba90fa79e851f99aa/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/666ecb81366df20a6cb3335366f3a5d4/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/28ed7469d15921363c5ea9fb81308109/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/56265bf4cddb8eb011c518a8b2e5a7c7/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/1db51a8da9af4db552236733027807db/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/maverick/.gradle/caches/transforms-2/files-2.1/ce6ece7f553ada87f5f6f77b155748f1/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/798e01dffa81f6ad1e6f97fea646a3dc/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:2:5-35
+		INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:1:1-45:12
+		INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:1:1-45:12
+		INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:4:3-64
+MERGED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:4:3-64
+MERGED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:4:3-64
+MERGED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:9:5-67
+MERGED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:4:20-62
+application
+ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:6:4-44:19
+MERGED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:17:5-26:19
+MERGED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:17:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/42735e7a3f4c6d9f5fd2d0db7d114b58/glide-4.10.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/42735e7a3f4c6d9f5fd2d0db7d114b58/glide-4.10.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.6.0-rc01] /Users/maverick/.gradle/caches/transforms-2/files-2.1/d1bc3958f0895d8ca381324781a14100/core-1.6.0-rc01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0-rc01] /Users/maverick/.gradle/caches/transforms-2/files-2.1/d1bc3958f0895d8ca381324781a14100/core-1.6.0-rc01/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/maverick/.gradle/caches/transforms-2/files-2.1/491237865ad9caf848c477252190d771/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/maverick/.gradle/caches/transforms-2/files-2.1/491237865ad9caf848c477252190d771/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/136ecb6d9c69b57d8b5e5771d6efbd94/gifdecoder-4.10.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/136ecb6d9c69b57d8b5e5771d6efbd94/gifdecoder-4.10.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/maverick/.gradle/caches/transforms-2/files-2.1/ce6ece7f553ada87f5f6f77b155748f1/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/maverick/.gradle/caches/transforms-2/files-2.1/ce6ece7f553ada87f5f6f77b155748f1/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0-rc01] /Users/maverick/.gradle/caches/transforms-2/files-2.1/d1bc3958f0895d8ca381324781a14100/core-1.6.0-rc01/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:7:9-33
+	android:icon
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:8:9-43
+activity#com.example.ai_radio.MainActivity
+ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:9:9-38:20
+	android:launchMode
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:12:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:15:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:16:13-55
+	android:configChanges
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:14:13-163
+	android:theme
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:13:13-47
+	android:usesCleartextTraffic
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:11:13-48
+	android:name
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:10:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:21:13-24:17
+	android:resource
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:23:15-52
+	android:name
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:22:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:30:13-33:17
+	android:resource
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:32:15-61
+	android:name
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:31:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:34:13-37:29
+action#android.intent.action.MAIN
+ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:35:17-68
+	android:name
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:36:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:41:9-43:33
+	android:value
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:43:13-30
+	android:name
+		ADDED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml:42:13-44
+uses-sdk
+INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml
+MERGED from [:audioplayers] /Users/maverick/Documents/AI-Music-App/build/audioplayers/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-44
+MERGED from [:audioplayers] /Users/maverick/Documents/AI-Music-App/build/audioplayers/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-44
+MERGED from [:alan_voice] /Users/maverick/Documents/AI-Music-App/build/alan_voice/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:alan_voice] /Users/maverick/Documents/AI-Music-App/build/alan_voice/intermediates/library_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:path_provider] /Users/maverick/Documents/AI-Music-App/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/maverick/Documents/AI-Music-App/build/path_provider/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /Users/maverick/Documents/AI-Music-App/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /Users/maverick/Documents/AI-Music-App/build/package_info/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.6.0-rc01] /Users/maverick/.gradle/caches/transforms-2/files-2.1/68a6cb6ec79e0fadd99463097001ed27/core-ktx-1.6.0-rc01/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0-rc01] /Users/maverick/.gradle/caches/transforms-2/files-2.1/68a6cb6ec79e0fadd99463097001ed27/core-ktx-1.6.0-rc01/AndroidManifest.xml:5:5-7:41
+MERGED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:5:5-7:41
+MERGED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/c3b1bffdf83d6cacfb00f0f9ca89a3e0/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/c3b1bffdf83d6cacfb00f0f9ca89a3e0/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/1f737b1368f7d2bb9c0086857629b41f/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/1f737b1368f7d2bb9c0086857629b41f/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/42735e7a3f4c6d9f5fd2d0db7d114b58/glide-4.10.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/42735e7a3f4c6d9f5fd2d0db7d114b58/glide-4.10.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/293b9abd2eb272e873253661c58c369c/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/293b9abd2eb272e873253661c58c369c/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/baf90056ab22f753b011489a562adf8b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/baf90056ab22f753b011489a562adf8b/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/52664f4c2212366316d5d27f589c3c02/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/52664f4c2212366316d5d27f589c3c02/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/7bfa6bdec5885c603ac2e340f3a7ec7b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/7bfa6bdec5885c603ac2e340f3a7ec7b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/660ae9fa685b0dae833d8182baaa48cd/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/660ae9fa685b0dae833d8182baaa48cd/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/024538878c14b4d616afd8c132a13204/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/024538878c14b4d616afd8c132a13204/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/d2113b3317658f193ac6eaa9ad7a696e/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/d2113b3317658f193ac6eaa9ad7a696e/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/07858528977996d7c8f653fc9c11e787/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/07858528977996d7c8f653fc9c11e787/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/cfb22f23bf3a82fa743a33f859491ebe/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/cfb22f23bf3a82fa743a33f859491ebe/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/2003b0cf3cdd3a537abc963769e10251/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/2003b0cf3cdd3a537abc963769e10251/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/23cba14a0a38bfe09e1915e580fdf5cb/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/23cba14a0a38bfe09e1915e580fdf5cb/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/11e836cd2b15efc3fe55439d43852921/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/11e836cd2b15efc3fe55439d43852921/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/d2125681bfce58306ad0989f9776cd1c/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/d2125681bfce58306ad0989f9776cd1c/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/e9cb53afee3cc87868c55a9e2e4059e8/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/e9cb53afee3cc87868c55a9e2e4059e8/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/91d75d962b3678d58790d6c00c3fcaa3/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/91d75d962b3678d58790d6c00c3fcaa3/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/9f9df9b406b6b967f669afb9dc66fd7c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/9f9df9b406b6b967f669afb9dc66fd7c/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0-rc01] /Users/maverick/.gradle/caches/transforms-2/files-2.1/d1bc3958f0895d8ca381324781a14100/core-1.6.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0-rc01] /Users/maverick/.gradle/caches/transforms-2/files-2.1/d1bc3958f0895d8ca381324781a14100/core-1.6.0-rc01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/97be06ce758a55ea72d0d7c8496a0c99/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/97be06ce758a55ea72d0d7c8496a0c99/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/c9b1f6620f43493d524f9ac61798ff9c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/c9b1f6620f43493d524f9ac61798ff9c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/da5440f1ffe2a8c2ec03402c4ad96148/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/da5440f1ffe2a8c2ec03402c4ad96148/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/1f903bbbe69145ba3246c19d13766e1e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/1f903bbbe69145ba3246c19d13766e1e/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.budiyev.android:code-scanner:2.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/30456ab6f9e23c8939b4f515597d665a/code-scanner-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.budiyev.android:code-scanner:2.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/30456ab6f9e23c8939b4f515597d665a/code-scanner-2.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/8ccaf7fe4ad6b000436b8155986bd04b/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/8ccaf7fe4ad6b000436b8155986bd04b/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/maverick/.gradle/caches/transforms-2/files-2.1/491237865ad9caf848c477252190d771/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/maverick/.gradle/caches/transforms-2/files-2.1/491237865ad9caf848c477252190d771/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/3da558147364936a75e72dacdeb6652a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/3da558147364936a75e72dacdeb6652a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/136ecb6d9c69b57d8b5e5771d6efbd94/gifdecoder-4.10.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/136ecb6d9c69b57d8b5e5771d6efbd94/gifdecoder-4.10.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/47b7d07dae849aeba90fa79e851f99aa/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/47b7d07dae849aeba90fa79e851f99aa/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/666ecb81366df20a6cb3335366f3a5d4/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/666ecb81366df20a6cb3335366f3a5d4/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/28ed7469d15921363c5ea9fb81308109/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/28ed7469d15921363c5ea9fb81308109/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/56265bf4cddb8eb011c518a8b2e5a7c7/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/56265bf4cddb8eb011c518a8b2e5a7c7/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/1db51a8da9af4db552236733027807db/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/1db51a8da9af4db552236733027807db/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/maverick/.gradle/caches/transforms-2/files-2.1/ce6ece7f553ada87f5f6f77b155748f1/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/maverick/.gradle/caches/transforms-2/files-2.1/ce6ece7f553ada87f5f6f77b155748f1/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/798e01dffa81f6ad1e6f97fea646a3dc/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/798e01dffa81f6ad1e6f97fea646a3dc/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/maverick/Documents/AI-Music-App/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:10:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:12:22-77
+uses-permission#android.permission.CAMERA
+ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:13:22-62
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:14:22-65
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:15:5-77
+	android:name
+		ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:15:22-74
+activity#com.alan.alansdk.qr.QRScanActivity
+ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:18:9-21:54
+	android:screenOrientation
+		ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:20:13-49
+	android:theme
+		ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:21:13-51
+	android:name
+		ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:19:13-62
+service#com.alan.alansdk.AlanService
+ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:23:9-25:38
+	android:enabled
+		ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [app.alan:sdk:4.10.0] /Users/maverick/.gradle/caches/transforms-2/files-2.1/992232f80603e4c7291f2256ddd561c7/sdk-4.10.0/AndroidManifest.xml:24:13-56
