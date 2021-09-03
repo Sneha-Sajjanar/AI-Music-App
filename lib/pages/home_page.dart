@@ -37,14 +37,13 @@ class _HomePageState extends State<HomePage> {
     super.initState();
     setupAlan();
     fetchRadios();
-
     _audioPlayer.onPlayerStateChanged.listen((event) {
       if (event == _audioPlayer.onDurationChanged) {
-        _isPlaying = true;
+        // _isPlaying = true;
       } else {
-        _isPlaying = false;
+        // _isPlaying = false;
       }
-      setState(() {});
+      // setState(() {});
     });
   }
 
@@ -56,6 +55,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   _handleCommand(Map<String, dynamic> response) {
+    print(response["command"]);
     switch (response["command"]) {
       case "play":
         _playMusic(_selectedRadio.url);
@@ -72,7 +72,11 @@ class _HomePageState extends State<HomePage> {
 
       case "stop":
         _audioPlayer.stop();
+        setState(() {
+          _isPlaying = false;
+        });
         break;
+
       case "next":
         final index = _selectedRadio.id;
         MyRadio newRadio;
@@ -120,7 +124,7 @@ class _HomePageState extends State<HomePage> {
   _playMusic(String url) {
     _audioPlayer.play(url);
     _selectedRadio = radios.firstWhere((element) => element.url == url);
-    print(_selectedRadio.name);
+    _isPlaying = true;
     setState(() {});
   }
 
@@ -136,7 +140,7 @@ class _HomePageState extends State<HomePage> {
               ? [
                   100.heightBox,
                   "All Channels".text.xl.white.semiBold.make().px16(),
-                  20.heightBox,
+                  25.heightBox,
                   ListView(
                     padding: Vx.m0,
                     shrinkWrap: true,
@@ -178,10 +182,10 @@ class _HomePageState extends State<HomePage> {
               centerTitle: true,
             ).h(100.0).p16(),
             "Start with - Hey Alan 👇".text.italic.semiBold.white.make(),
-            10.heightBox,
+            6.heightBox,
             VxSwiper.builder(
               itemCount: sugg.length,
-              height: 50.0,
+              height: 35.0,
               viewportFraction: 0.35,
               autoPlay: true,
               autoPlayAnimationDuration: Duration(seconds: 3),
@@ -196,7 +200,7 @@ class _HomePageState extends State<HomePage> {
               },
             )
           ].vStack(alignment: MainAxisAlignment.start),
-          30.heightBox,
+          5.heightBox,
           radios != null
               ? VxSwiper.builder(
                   itemCount: radios.length,
@@ -242,10 +246,10 @@ class _HomePageState extends State<HomePage> {
                                   .make()
                                   .px16(),
                             )
-                                .height(40)
+                                .height(35)
                                 .black
                                 .alignCenter
-                                .withRounded(value: 10.0)
+                                .withRounded(value: 5.0)
                                 .make(),
                           ),
                           Align(
@@ -253,7 +257,7 @@ class _HomePageState extends State<HomePage> {
                             child: VStack(
                               [
                                 rad.name.text.xl3.white.bold.make(),
-                                5.heightBox,
+                                2.heightBox,
                                 rad.tagline.text.sm.white.semiBold.make(),
                               ],
                               crossAlignment: CrossAxisAlignment.center,
@@ -266,17 +270,24 @@ class _HomePageState extends State<HomePage> {
                                   CupertinoIcons.play_circle,
                                   color: Colors.white,
                                 ),
-                                10.heightBox,
+                                2.heightBox,
                                 "Double tap to play".text.gray300.make(),
                               ].vStack())
                         ],
                       ))
                           .clip(Clip.antiAlias)
                           .border(color: Colors.black, width: 5.0)
-                          .withRounded(value: 60.0)
+                          .withRounded(value: 35.0)
                           .make()
                           .onInkDoubleTap(() {
-                        _playMusic(rad.url);
+                        if (_isPlaying) {
+                          _audioPlayer.stop();
+                          _isPlaying = false;
+                        } else {
+                          _playMusic(rad.url);
+                          _isPlaying = true;
+                        }
+                        setState(() {});
                       }).p16(),
                     );
                   },
@@ -290,9 +301,8 @@ class _HomePageState extends State<HomePage> {
             alignment: Alignment.bottomCenter,
             child: [
               Row(
-    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-
                   Icon(
                     _isPlaying
                         ? CupertinoIcons.stop_circle
@@ -300,23 +310,33 @@ class _HomePageState extends State<HomePage> {
                     color: Colors.white,
                     size: 50.0,
                   ).onInkTap(() {
-    _playMusic(_selectedRadio.url);
+                    if (_isPlaying) {
+                      _audioPlayer.stop();
+                      _isPlaying = false;
+                    } else {
+                      _playMusic(_selectedRadio.url);
+                      _isPlaying = true;
+                    }
+                    setState(() {});
                   }),
-
-    InkWell(onTap: (){
-    _audioPlayer.stop();
-    },child: Icon(
-   CupertinoIcons.pause_circle,
-    color: Colors.white,
-    size: 50.0,
-    )),"Playing Now - ${_selectedRadio.name} FM"
-        .text
-        .white
-        .makeCentered(),
+                  //InkWell(
+                     // onTap: () {
+                       // _audioPlayer.stop();
+                     // },
+                     // child: Icon(
+                      //  CupertinoIcons.pause_circle,
+                        //color: Colors.white,
+                       // size: 50.0,
+                    //  )),
+                  "Playing Now - ${_selectedRadio?.name} FM"
+                      .text
+                      .white
+                      .makeCentered(),
                 ],
               )
             ].vStack(),
-          ).pOnly(bottom: context.percentHeight * 12),
+          ).pOnly(bottom: context.percentHeight * 10,
+    right: context.percentWidth * 35),
         ],
         fit: StackFit.expand,
         clipBehavior: Clip.antiAlias,
